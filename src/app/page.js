@@ -1,4 +1,4 @@
-import { Editor } from "./components/editor";
+import { Editor } from "@/components/editor";
 
 async function getAllNotes() {
   const res = await fetch("http://localhost:3001/api/v1/notes", {
